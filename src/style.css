@@ -1,0 +1,25 @@
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+img:hover {
+    opacity: .7;
+}
+
+.grid {
+    display: grid;
+    border: none;
+    width: 100vw;
+    margin: none;
+    padding: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-auto-rows: 300px;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
